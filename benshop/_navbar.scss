@@ -1,0 +1,191 @@
+.slogan{
+	width: 100%;
+	height: 80px;
+	padding-top: 10px;
+	.img{
+		width: 300px;
+		float: left;
+		#hinh2{
+			display: none;
+			width: 15%;
+		}
+		.lienhemobile{
+			display: none ;
+			.email{
+				display: flex;
+				p{margin:0}
+				.giohang{
+				        border-bottom: none;
+				        border-left: no ne;
+				        i{
+				            font-size: 28px;
+			        	}
+				        .badge{
+				            background-color: $webtienich;
+				            top: 0;
+				            margin-top: -20px;
+				            margin-left: -10px;
+				        }
+			    	}  
+			}
+		}
+	}
+	.timkiem{
+		.form-control{
+			border-radius: 0;
+			background-color:#EBEBEB;
+			&:focus{
+				border: 2px solid $orange;
+			}
+		}
+		.btn{
+			border-radius: 0;
+		}
+	}
+	.lienhe{
+		float: right;
+		display: flex;
+		.email{
+			display: flex;
+			p{margin:0}
+			.giohang{
+			        border-bottom: none;
+			        border-left: no ne;
+			        i{
+			            font-size: 28px;
+		        	}
+			        .badge{
+			            background-color: $orange;
+			            top: 0;
+			            margin-top: -20px;
+			            margin-left: -10px;
+			        }
+		    	}  
+		}
+	}
+}
+.top-menu{
+	li{
+		margin-left: 10px;
+		a{
+			margin-right: 0 !important;
+			
+		}
+	}
+	.dangnhap{
+	        border-bottom: none;
+	        a{
+	            display: inline-block !important;
+	            font-weight: bold !important;
+	        }
+	    }
+	.giohang{
+	        border-bottom: none;
+	        border-left: no ne;
+	        i{
+	            font-size: 28px;
+        	}
+	        .badge{
+	            background-color: $webtienich;
+	            top: 0;
+	            margin-top: -20px;
+	            margin-left: -10px;
+	        }
+    	}  
+}
+.btn-search{
+	&:hover{
+		background-color: $orange +40;
+		border: 1px solid $orange;
+	}
+}
+header{
+	line-height: 50px !important;
+	height: 50px !important;
+	background-color: $orange;
+	.lines, .lines:after, .lines:before{
+		background-color: #fff;
+	}
+	#header-wrap{
+		background-color: $orange !important;
+	}
+	.slogan2{
+	width: 100%;
+	height: 80px;
+	padding-top: 10px;
+	display: none;
+	.img{
+		width: 300px;
+		float: left;
+		#hinh2{
+			display: none;
+			width: 15%;
+		}
+		.lienhemobile{
+			display: none ;
+			.email{
+				display: flex;
+				p{margin:0}
+				.giohang{
+				        border-bottom: none;
+				        border-left: no ne;
+				        i{
+				            font-size: 28px;
+			        	}
+				        .badge{
+				            background-color: $webtienich;
+				            top: 0;
+				            margin-top: -20px;
+				            margin-left: -10px;
+				        }
+			    	}  
+			}
+		}
+	}
+	.timkiem{
+		.form-control{
+			border-radius: 0;
+			background-color:#EBEBEB;
+			&:focus{
+				border: 2px solid $orange;
+			}
+		}
+		.btn{
+			border-radius: 0;
+		}
+	}
+	.lienhe{
+		float: right;
+		display: flex;
+		.email{
+			display: flex;
+			p{margin:0}
+			.giohang{
+			        border-bottom: none;
+			        border-left: no ne;
+			        i{
+			            font-size: 28px;
+		        	}
+			        .badge{
+			            background-color: $orange;
+			            top: 0;
+			            margin-top: -20px;
+			            margin-left: -10px;
+			        }
+		    	}  
+		}
+	}
+}
+	nav{
+		ul{
+			li.active{
+				background-color: $orange +30;
+			}
+			li{
+				a{
+					color: #fff !important;
+				}
+			}
+		}
+	}
+}

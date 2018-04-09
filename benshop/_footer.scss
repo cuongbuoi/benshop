@@ -1,0 +1,51 @@
+#footer{
+    color: #fff !important;
+        .footer-content{
+            background-color: #222222;
+            h5,h4{
+                color: #fff;
+            }
+            p,a{
+                color: #777;
+            }
+        }
+        .nhap-mail{
+        p{
+            font-style: italic;
+            color: #fff;
+        }
+        .btn-sendmail{
+            border: none;
+            margin: 0;
+            width: 7em;
+            height: 2.6em;
+            background-color: $orange;
+            color: #000;
+            transition: all 0.3s;
+            &:hover{
+                background-color: $green+20;
+            }
+        }
+    }
+
+}
+.copyright-content{
+    .ben-link{
+        color: $orange !important;
+    }
+    .webtienich{
+        color: $webtienich !important;
+    }
+}
+.ipfooter{
+  .form-control{
+      border-radius: 0;
+      background-color:#EBEBEB;
+      &:focus{
+        border: 2px solid $orange;
+      }
+    }
+    .btn{
+      border-radius: 0;
+    }
+}
